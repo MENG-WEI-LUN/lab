@@ -43,7 +43,7 @@ class GoogleController extends Controller
             // Storing user infomation to log
             Log::create([
                 'logInAC' => Auth::user()->email,
-                'logInTime' => Carbon::now(),
+                'logInTime' => Carbon::now()->setTimezone('Asia/Taipei'),
                 'IP' => $_SERVER['REMOTE_ADDR']
             ]);
 

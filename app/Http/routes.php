@@ -20,11 +20,10 @@ Route::group(['middleware' =>'auth'],function(){
         return view('pages.index',['mainTitle' => '']);
     }]);
 
-    Route::group(['prefix' => 'apply'],function(){
-        Route::get('/',['as' => 'apply',  'uses' => 'EventRegistsController@index']);
-        Route::post('/store',['as' => 'apply.store','uses' => 'EventRegistsController@store']);
-        Route::patch('/{id?}',['as' => 'apply.update','uses' => 'EventRegistsController@update']);
-        Route::delete('/delete/{id?}',['as' => 'apply.delete','uses' => 'EventRegistsController@destroy']);
+    Route::group(['prefix' => 'forum'],function(){
+        Route::get('/',['as' => 'forum',  'uses' => 'ForumController@index']);
+        
+        
     });
     
     Route::group(['prefix' => 'manager'],function(){    

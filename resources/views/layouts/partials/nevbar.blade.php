@@ -46,9 +46,9 @@
                 </a>
             </li>
             <li>
-                <a class="" href="{{route('apply')}}">
+                <a class="" href="{{route('forum')}}">
                     <i class="icon_documents_alt" aria-hidden="true"></i>
-                    <span>活動報名</span>
+                    <span>討論區</span>
                 </a>
             </li>
             <li>
