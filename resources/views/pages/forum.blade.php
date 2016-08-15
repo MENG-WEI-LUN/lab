@@ -11,7 +11,14 @@
     </tr>
     <tr class="tableContent">
         <td>專題研究</td>
-        <td>???????</td>
+        <td>此討論版僅提供測試</td>
+        <td>
+            <button class="btn btn-info bnt-lg" style="font-size: 20px;" data-toggle="modal" data-target="#EditForm">編輯</button>
+        </td>
+    </tr>
+    <tr class="tableContent">
+        <td>問題專區</td>
+        <td>此討論版僅提供測試</td>
         <td>
             <button class="btn btn-info bnt-lg" style="font-size: 20px;" data-toggle="modal" data-target="#EditForm">編輯</button>
         </td>
